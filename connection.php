@@ -1,0 +1,9 @@
+<?php
+
+$link = mysqli_connect("localhost", "root", "Abp@216", "ppa488");
+ 
+// Check connection
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+?>
